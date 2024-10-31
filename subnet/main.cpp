@@ -42,7 +42,7 @@ std::string make_human_readable_integer(T&& value){
 bool iequals(const std::string& s1, const std::string& s2) {
     return std::equal(s1.begin(), s1.end(), s2.begin(), s2.end(), [](char c1, char c2) {
         return std::toupper(c1) == std::toupper(c2);
-        });
+    });
 }
 
 
